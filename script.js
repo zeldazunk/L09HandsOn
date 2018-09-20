@@ -24,16 +24,17 @@
 */
 
 
-
-let einsteinBio = new XMLHttpRequest();
+function loadDoc() {
+const einsteinBio = new XMLHttpRequest();
 einsteinBio.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     let myObj = JSON.parse(this.responseText);
     document.getElementById("pic").innerHTML = myObj.pict;
     document.getElementById("name").innerHTML = myObj.name;
-    document.getElementById("bday").innerHTML = myObj.birthday;
+    document.getElementById("birthday").innerHTML = myObj.birthday;
+    document.getElementById("einsteinBio").innerHTML = myObj.einsteinBio;
   }
 };
 einsteinBio.open("GET", "einstein.json", true);
 einsteinBio.send();
-
+}
