@@ -1,6 +1,8 @@
-{"name": "Albert Einstein", "picture": "https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTU2OTAxOTAz/albert-einstein-9285408-1-402.jpg",
-    "birthday": "14 March 1879",
-    "bio":
-    "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist[5] who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics).[4][6]:274 His work is also known for its influence on the philosophy of science.[7][8] He is best known to the general public for his mass–energy equivalence formula E = mc2, which has been dubbed \"the world's most famous equation\".[9] He received the 1921 Nobel Prize in Physics \"for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\",[10] a pivotal step in the development of quantum theory."
- }
+{
+    "name": "Albert Einstein",
+    "birthday": "March 14, 1879",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg",
+     "Bio": "Albert Einstein (March 14, 1879 to April 18, 1955) was a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize for physics for his explanation of the photoelectric effect. In the following decade, he immigrated to the U.S. after being targeted by the Nazis. His work also had a major impact on the development of atomic energy. In his later years, Einstein focused on unified field theory. With his passion for inquiry, Einstein is generally considered the most influential physicist of the 20th century."
+        
+}
  
