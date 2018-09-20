@@ -26,7 +26,7 @@
 
 
 let einsteinBio = new XMLHttpRequest();
-newRequest.onreadystatechange = function() {
+einsteinBio.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     let myObj = JSON.parse(this.responseText);
     document.getElementById("pic").innerHTML = myObj.pict;
@@ -34,6 +34,6 @@ newRequest.onreadystatechange = function() {
     document.getElementById("bday").innerHTML = myObj.birthday;
   }
 };
-newRequest.open("GET", "einstein.json", true);
-newRequest.send();
+einsteinBio.open("GET", "einstein.json", true);
+einsteinBio.send();
 
