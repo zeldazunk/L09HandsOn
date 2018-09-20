@@ -1,4 +1,4 @@
-
+/*
     let einsteinBio = new XMLHttpRequest();
     einsteinBio.onreadystatechange = function() {
        if (this.readyState == 4 && this.status == 200) {
@@ -21,11 +21,10 @@
         });
     });
 
+*/
 
 
 
-
-/*
 let einsteinBio = new XMLHttpRequest();
 newRequest.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -37,5 +36,4 @@ newRequest.onreadystatechange = function() {
 };
 newRequest.open("GET", "einstein.json", true);
 newRequest.send();
-*/
 
