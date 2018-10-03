@@ -24,7 +24,7 @@ einBioFull.onreadystatechange = function () {
 einBioFull.open("GET", "einstein.json", true);
 einBioFull.send();
 
-/*          */
+
 /*
 
 function loadDoc() {
